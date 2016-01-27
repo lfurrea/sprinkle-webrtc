@@ -38,12 +38,10 @@ cd sprinkle-webrtc
 
 
 ##Usage
-Usage deploy-webrtc.rb /path/to/cert.pem /path/to/key.pem || https://download.me/cert.pem 
+Usage deploy-webrtc.rb /local/path/to/cert.pem /local/path/to/key.pem /local/path/to/certs/dir 
  
-Requires EXACTLY two arguments  to get the server certificate and server key
-each could either be a filesystem path or a URL from where the file  
-can be downloaded
-
+Requires EXACTLY three arguments  to get the server certificate, server key
+ and certificate bundle, they all need to reside on the local filesystem
 
 ##Troubleshooting
 
