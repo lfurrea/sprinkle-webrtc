@@ -30,8 +30,7 @@ gem install sprinkle
 * Clone repo
 
 ```
-git clone git@github.com:2600hz/scratch-space.git
-git checkout signalera
+git clone https://github.com/lfurrea/sprinkle-webrtc.git
 cd sprinkle-webrtc
 ```
 * Edit config.rb to suit your needs
